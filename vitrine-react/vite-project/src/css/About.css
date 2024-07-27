@@ -1,0 +1,22 @@
+.company-presentation {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .intro {
+    margin-bottom: 20px;
+    color: white;
+    font-size: large;
+  }
+  img {
+    width: 60%;
+  }
+  h1{
+    color: #FF1414;
+  }
+  

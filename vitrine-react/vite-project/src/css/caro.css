@@ -1,0 +1,21 @@
+
+/* Styles pour ajuster la taille du carrousel */
+.carousel {
+  width: 800px; /* Réduit la largeur à 50% */
+  height: 800px; /* Réduit la hauteur à 50% */
+  margin: 0 auto; /* Centre le carrousel */
+}
+
+/* Personnalisez les styles pour les images et les légendes */
+.carousel img {
+  margin: auto;
+  width: 60%; /* Assure que les images prennent toute la largeur du carrousel */
+  height:  auto  ; /* Ajuste la hauteur automatiquement */
+}
+
+.carousel .legend {
+  font-size: 14px; /* Réduit la taille de la légende */
+  padding: 5px; /* Ajoute un peu d'espace autour du texte */
+  background-color: rgba(0, 0, 0, 0.5); /* Ajoute un fond semi-transparent pour la légende */
+  color: #fff; /* Change la couleur du texte en blanc */
+}

@@ -1,0 +1,94 @@
+#Booking {
+    background-color: #f4e4c1;
+    padding: 2px;
+    border-radius: 8px;
+    max-width: 500px;
+
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#Booking h1 {
+    color: #1e3d59;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#Booking form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#Booking form input,
+#Booking form textarea,
+#Booking select
+,#booking option {
+    width: 80%;
+    height: 50px;
+    margin: 5px 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffffff2d;
+    color: #000000;
+    font-size: 16px;
+}
+.custom-datepicker {
+background-color: #FF1414;
+}
+#Booking form textarea {
+    height: 100px;
+}
+
+#Booking form input[type="submit"] {
+    height: 45px;
+    background: linear-gradient(90deg, #FF1414 20%, #f70000);
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Booking form input[type="submit"]:hover {
+    background-color: #d62839;
+}
+
+@media(max-width: 620px) {
+    #Booking form {
+        width: 90%;
+    }
+}
+
+#Booking ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Booking li {
+    background-color: #d62839;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#Booking .available-times {
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,209 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Alice",
+      "email": "alice@example.com",
+      "role": "staff",
+      "password": "password123"
+    },
+    {
+      "id": "dcdc",
+      "name": "Mohamed TAZI",
+      "email": "t.mohamed.29102003@gmail.com",
+      "role": "admin",
+      "password": "123456"
+    },
+    {
+      "id": "2a6e",
+      "name": "soutnance",
+      "email": "alice@example.com",
+      "role": "admin",
+      "password": "password123"
+    },
+    {
+      "id": "dc79",
+      "name": "soutnance",
+      "email": "alice@example.com",
+      "role": "admin",
+      "password": "password123"
+    },
+    {
+      "id": "2ec8",
+      "name": "Bellil",
+      "email": "alice@example.com",
+      "role": "admin",
+      "password": "password123"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "f6b4",
+      "themeId": "1",
+      "date": "2024-07-23T08:09:59.000Z",
+      "duration": "30",
+      "price": "35",
+      "minParticipants": "3",
+      "availableSlots": [
+        {
+          "time": "18:00",
+          "maxParticipants": 10,
+          "remainingPlaces": 10
+        }
+      ],
+      "createdBy": 0,
+      "theme": "Asile"
+    },
+    {
+      "id": "4e62",
+      "themeId": "1",
+      "date": "2024-07-15T16:12:25.000Z",
+      "duration": "1",
+      "price": "1",
+      "minParticipants": "1",
+      "availableSlots": [
+        {
+          "time": "18:34",
+          "maxParticipants": 10,
+          "remainingPlaces": 10
+        }
+      ],
+      "createdBy": 1,
+      "theme": "Manoir"
+    },
+    {
+      "id": "af9a",
+      "themeId": "1",
+      "date": "2024-07-21T17:07:27.000Z",
+      "duration": "12",
+      "price": "6",
+      "minParticipants": "1",
+      "availableSlots": [
+        {
+          "time": "20:00",
+          "maxParticipants": 10,
+          "remainingPlaces": 10
+        }
+      ],
+      "createdBy": 1,
+      "theme": "Crypte"
+    },
+    {
+      "id": "6095",
+      "themeId": "1",
+      "date": "2024-07-22T08:55:19.000Z",
+      "duration": "7",
+      "price": "8",
+      "minParticipants": "2",
+      "availableSlots": [
+        "10:55"
+      ],
+      "createdBy": 1
+    },
+    {
+      "id": "f55e",
+      "themeId": "0",
+      "date": "2024-07-22T08:55:35.473Z",
+      "duration": "3",
+      "price": "2",
+      "minParticipants": "2",
+      "availableSlots": [
+        "10:55",
+        "10:56",
+        "10:57"
+      ],
+      "createdBy": 1
+    },
+    {
+      "id": "c6a6",
+      "themeId": "1",
+      "date": "2024-07-23T09:29:03.000Z",
+      "duration": "30",
+      "price": "30",
+      "minParticipants": "2",
+      "availableSlots": [
+        "11:29"
+      ],
+      "createdBy": 1
+    }
+  ],
+  "reservations": [
+    {
+      "id": "c3d7",
+      "firstName": "rayan",
+      "lastName": "mazou",
+      "email": "mazouni@gmail.com",
+      "numberOfPeople": 6,
+      "selectedRoom": "1",
+      "slot": "2024-07-14T16:16:00.000Z",
+      "status": "confirmed"
+    },
+    {
+      "id": "8610",
+      "firstName": "MOHAMED RAYAN",
+      "lastName": "MAZOUNI",
+      "email": "mazouni@gmail.com",
+      "numberOfPeople": 8,
+      "selectedRoom": "1",
+      "slot": "2024-07-14T15:16:00.000Z",
+      "status": "confirmed"
+    },
+    {
+      "id": "6c8b",
+      "firstName": "MOHAMED RAYAN",
+      "lastName": "MAZOUNI",
+      "email": "a@a.com",
+      "numberOfPeople": 4,
+      "selectedRoom": "2",
+      "slot": "2024-07-15T12:00:00.000Z",
+      "status": "confirmed"
+    },
+    {
+      "id": "9992",
+      "firstName": "MOHAMED RAYAN",
+      "lastName": "MAZOUNI",
+      "email": "mazouni@gmail.com",
+      "numberOfPeople": 3,
+      "selectedRoom": "Asile",
+      "slot": "2024-07-23T16:00:00.000Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "message": "I am interested in your escape room events."
+    }
+  ],
+  "themes": [
+    {
+      "id": "1",
+      "name": "Asile",
+      "salle": "1",
+      "histoire": "un theme comme les autre ",
+      "photo": "logo.png"
+    },
+    {
+      "id": "2",
+      "name": "Crypte",
+      "salle": "2",
+      "histoire": "un theme comme les autre ",
+      "photo": "logo.png"
+    },
+    {
+      "id": "3",
+      "name": "Laboratoire",
+      "salle": "3",
+      "histoire": "un theme comme les autre ",
+      "photo": "logo.png"
+    },
+    {
+      "id": "ae33",
+      "name": "one piece",
+      "salle": "One Piece",
+      "histoire": "dvljdfl",
+      "photo": "geg"
+    }
+  ]
+}

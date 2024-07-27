@@ -1,0 +1,85 @@
+/* Navbar styles */
+.header-area {
+  background-color: #6E33FF; /* Couleur de fond du header */
+  border-bottom: 1px solid #fafafa; /* Ajout d'une bordure en bas du header */
+}
+
+.main-header {
+  padding: 20px 0; /* Espace intérieur du header */
+}
+
+.logo img {
+  max-width: 100%; /* Image du logo s'ajustant à la taille du conteneur */
+}
+
+.main-menu ul {
+  list-style: none; /* Suppression des puces de la liste */
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu ul li {
+  display: inline-block; /* Affichage horizontal des éléments de la liste */
+  margin-right: 20px; /* Espace entre les éléments de la liste */
+}
+
+#navigation li a {
+  color: #000; /* Couleur du texte des éléments de navigation */
+  margin-right: 20px; /* Espacement à droite pour l'élément "Contact" */
+
+}
+
+
+.main-menu ul li:last-child {
+  margin-right: 0; /* Aucun espace à droite pour le dernier élément de la liste */
+}
+
+/* Styles pour le bouton de droite */
+.header-right-btn a {
+  text-decoration: none; /* Suppression du soulignement du lien */
+  padding: 10px 20px; /* Espacement du bouton */
+  border: 2px solid #333; /* Bordure du bouton */
+  border-radius: 5px; /* Coins arrondis */
+  background-color: #333; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Animation de transition */
+}
+
+.header-right-btn a:hover {
+  background-color: #fff; /* Couleur de fond du bouton au survol */
+  color: #333; /* Couleur du texte du bouton au survol */
+  border-color: #333; /* Couleur de la bordure du bouton au survol */
+}
+
+
+/* Navbar styles */
+.logo-wrapper {
+  display: inline-flex; /* Permet aux éléments enfants de s'afficher côte à côte */
+  align-items: center; /* Alignement vertical au centre */
+}
+
+.logo {
+  margin-right: 10px; /* Marge à droite pour séparer le logo du titre */
+}
+
+.title {
+  font-size: 24px; /* Taille de police pour le titre */
+  font-weight: 700; /* Gras pour le titre */
+  color: #000; /* Couleur du texte du titre */
+}
+
+/* Navbar styles */
+.nav-menu li a {
+  position: relative; /* Position relative pour que les éléments pseudos soient positionnés par rapport à cet élément */
+}
+
+#navigation li a:hover {
+  background-color: #383F51;
+  padding: 15px;
+  border-radius: 15%;
+}
+
+
+.btn.header-btn {
+  margin-left: 20px; /* Espacement à gauche pour l'élément "Faire une donation" */
+}
